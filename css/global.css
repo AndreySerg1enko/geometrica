@@ -1,0 +1,23 @@
+:root {
+  --red-darken-1: #ff0000;
+  --red-darken-2: #e03226;
+
+  --grey-darken-1: #eeeeee;
+  --grey-darken-2: #afafaf;
+  --grey-darken-3: #a3a3a3;
+  --grey-darken-4: #ebebeb;
+  --grey-darken-5: #b8b8b8;
+  --grey-darken-6: #525252;
+  --grey-darken-7: #6d6d6d;
+  --grey-darken-8: #6f6f6f;
+  --grey-darken-9: #777777;
+  --grey-darken-10: #000000;
+
+  --link-color: var(--grey-darken-9);
+  --link-active-color: var(--grey-darken-10);
+  --primary-color: var(--red-darken-1);
+  --secondary-color: var(--red-darken-2);
+
+  --section-title-color: var(--grey-darken-1);
+  --product-title-color: var(--grey-darken-6);
+}
