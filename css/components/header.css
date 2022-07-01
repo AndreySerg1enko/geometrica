@@ -1,0 +1,98 @@
+.header {
+  background-color: #fff;
+  padding: 56px 0 0 80px;
+}
+.header__wrapper {
+  display: flex;
+}
+.header__navigation {
+  max-width: 953px;
+  width: 100%;
+  padding-right: 70px;
+}
+.header__navigation-list {
+  display: flex;
+  justify-content: space-between;
+}
+.header__navigation-list-item_dropdown {
+  display: flex;
+  position: relative;
+}
+.header__navigation-list-item_dropdown:after {
+  content: "\f0da";
+  font-weight: 900;
+  font-family: "Font Awesome 6 Free";
+  margin-left: 17px;
+  transition: all 0.3s ease;
+}
+.header__navigation-list-item_dropdown:hover .header__navigation-sub-list {
+  opacity: 1;
+  visibility: visible;
+}
+.header__navigation-list-item_dropdown:hover::after {
+  transform: rotate(90deg);
+}
+.header__navigation-list-link {
+  text-decoration: none;
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: var(--link-color);
+  transition: all 0.3s ease;
+}
+.header__navigation-list-link:hover {
+  color: var(--link-active-color);
+}
+.header__navigation-sub-list {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  width: 200px;
+  top: 15px;
+  left: 0;
+  padding-top: 15px;
+  transition: all 0.3s ease;
+}
+.header__navigation-sub-list-item {
+}
+.header__navigation-sub-list-link {
+  display: block;
+  background-color: #f7f7f7;
+  padding: 10px;
+  text-decoration: none;
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: var(--link-color);
+  transition: all 0.3s ease;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.header__navigation-sub-list-link:hover {
+  padding: 10px 0 10px 20px;
+  background-color: var(--grey-darken-1);
+}
+.header__contacts {
+  display: flex;
+  align-items: center;
+}
+.header__contacts > div {
+  margin-right: 83px;
+}
+.header__phone-number {
+  margin-bottom: 20px;
+}
+.header__contacts-location {
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--grey-darken-7);
+}
+.fa-instagram {
+}
