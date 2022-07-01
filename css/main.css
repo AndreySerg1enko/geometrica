@@ -1,4 +1,10 @@
+/* libs */
+
 @import url(./reset.css);
 @import url(../libs/normalize.css);
 @import url(./fonts.css);
 @import url(../libs/css/font-awesome.css);
+
+/* components */
+
+@import url("./components/header.css");
