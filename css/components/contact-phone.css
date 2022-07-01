@@ -1,0 +1,8 @@
+.phone-number__link {
+  text-decoration: none;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: var(--grey-darken-7);
+}
