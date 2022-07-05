@@ -1,8 +1,19 @@
+.phone-number {
+  display: flex;
+  align-items: center;
+  color: var(--link-color);
+  transition: all 0.5s ease;
+}
+
+.phone-number:hover {
+  color: var(--link-active-color);
+}
+
 .phone-number__link {
+  color: inherit;
   text-decoration: none;
   font-family: "Roboto";
   font-weight: 400;
   font-size: 20px;
   line-height: 23px;
-  color: var(--grey-darken-7);
 }
