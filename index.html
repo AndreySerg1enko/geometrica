@@ -12,61 +12,87 @@
 <body>
 
    <header class="header">
-      <div class="container header__wrapper">
-         <nav class="header__navigation">
-            <ul class="header__navigation-list">
-               <li class="header__navigation-list-item header__navigation-list-item_dropdown">
-                  <a class="header__navigation-list-link" href="#">Услуги</a>
-                  <ul class="header__navigation-sub-list">
-                     <li class="header__navigation-sub-list-item">
-                        <a href="#" class="header__navigation-sub-list-link">
-                           Услуга 1
-                        </a>
-                     </li>
-                     <li class="header__navigation-sub-list-item">
-                        <a href="#" class="header__navigation-sub-list-link">
-                           Услуга 2
-                        </a>
-                     </li>
-                     <li class="header__navigation-sub-list-item">
-                        <a href="#" class="header__navigation-sub-list-link">
-                           Услуга 3
-                        </a>
-                     </li>
-                     <li class="header__navigation-sub-list-item">
-                        <a href="#" class="header__navigation-sub-list-link">
-                           Услуга 4
-                        </a>
-                     </li>
-                  </ul>
-               </li>
-               <li class="header__navigation-list-item">
-                  <a class="header__navigation-list-link" href="#">оплата и доставка</a>
-               </li>
-               <li class="header__navigation-list-item">
-                  <a class="header__navigation-list-link" href="#">акции</a>
-               </li>
-               <li class="header__navigation-list-item">
-                  <a class="header__navigation-list-link" href="#">полезные советы</a>
-               </li>
-               <li class="header__navigation-list-item">
-                  <a class="header__navigation-list-link" href="#">обратная связь</a>
-               </li>
-               <li class="header__navigation-list-item">
-                  <a class="header__navigation-list-link" href="#">контакты</a>
-               </li>
-            </ul>
-         </nav>
-         <div class="header__contacts">
-            <div>
-               <div class="phone-number header__phone-number">
-                  <i class="fa-solid fa-phone"></i>
-                  <a href="tel:+73952482805" class="phone-number__link">+7 (3952) 48-28-05</a>
+      <div class="container">
+         <div class="header__wrapper">
+            <nav class="header__navigation">
+               <ul class="header__navigation-list">
+                  <li class="header__navigation-list-item header__navigation-list-item_dropdown">
+                     <a class="header__navigation-list-link" href="#">Услуги</a>
+                     <ul class="header__navigation-sub-list">
+                        <li class="header__navigation-sub-list-item">
+                           <a href="#" class="header__navigation-sub-list-link">
+                              Услуга 1
+                           </a>
+                        </li>
+                        <li class="header__navigation-sub-list-item">
+                           <a href="#" class="header__navigation-sub-list-link">
+                              Услуга 2
+                           </a>
+                        </li>
+                        <li class="header__navigation-sub-list-item">
+                           <a href="#" class="header__navigation-sub-list-link">
+                              Услуга 3
+                           </a>
+                        </li>
+                        <li class="header__navigation-sub-list-item">
+                           <a href="#" class="header__navigation-sub-list-link">
+                              Услуга 4
+                           </a>
+                        </li>
+                     </ul>
+                  </li>
+                  <li class="header__navigation-list-item">
+                     <a class="header__navigation-list-link" href="#">оплата и доставка</a>
+                  </li>
+                  <li class="header__navigation-list-item">
+                     <a class="header__navigation-list-link" href="#">акции</a>
+                  </li>
+                  <li class="header__navigation-list-item">
+                     <a class="header__navigation-list-link" href="#">полезные советы</a>
+                  </li>
+                  <li class="header__navigation-list-item">
+                     <a class="header__navigation-list-link" href="#">обратная связь</a>
+                  </li>
+                  <li class="header__navigation-list-item">
+                     <a class="header__navigation-list-link" href="#">контакты</a>
+                  </li>
+               </ul>
+            </nav>
+            <div class="header__contacts">
+               <div>
+                  <div class="phone-number header__phone-number">
+                     <i class="fa-solid fa-phone phone-number__icon"></i>
+                     <a href="tel:+73952482805" class="phone-number__link">+7 (3952) 48-28-05</a>
+                  </div>
+                  <p class="header__contacts-location">г. Иркутск, ул. Старокузьмихинская, 41/3</p>
                </div>
-               <p class="header__contacts-location">г. Иркутск, ул. Старокузьмихинская, 41/3</p>
+               <a href="https://www.instagram.com/geometrica38/" class="header__contacts-instagram">
+                  <i class="fa-brands fa-instagram"></i>
+               </a>
             </div>
-            <i class="fa-brands fa-instagram"></i>
          </div>
+         <div class="header__panel">
+            <img src="./images/logo.svg" alt="logo" class="header__panel-logo">
+            <p class="header__description">
+               керамическая плитка и <br>
+               керамогранит в Иркутске
+            </p>
+            <div class="header__controls">
+               <i class="fa-regular fa-user header__controls-icon"></i>
+               <i class="fa-regular fa-heart header__controls-icon"></i>
+               <i class="fa-solid fa-shopping-cart header__controls-icon"></i>
+            </div>
+            <form class="header__search">
+               <input class="header__search-input" type="text" name="search-products" placeholder="искать в каталоге">
+               <button type="search" class="header__search-button">
+                  <i class="fa-solid fa-arrow-right-long"></i>
+               </button>
+            </form>
+         </div>
+         <button class="header__catalog-button">
+            каталог продукции
+            <i class="fa-solid fa-bars"></i>
+         </button>
       </div>
    </header>
 
