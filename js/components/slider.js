@@ -12,7 +12,7 @@ class Slider {
     initSlider() {
         const styles = {
             display: 'flex',
-            transition: 'transform .5s',
+            transition: '.5s',
             transform: 'translateX(0)',
         };
 
@@ -63,7 +63,7 @@ class Slider {
     prev() {
         if (this.activeSlide !== 0) {
             this.activeSlide = this.activeSlide - 1;
-            this.container.style.transform = `translateX(-${this.width * this.activeSlide}px)`
+            this.container.style.transform = `translateX(${this.width * this.activeSlide}px)`
         }
     }
 
