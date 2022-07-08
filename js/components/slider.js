@@ -37,8 +37,11 @@ class Slider {
         ul.classList.add('slide-pagination');
         Array.from(this.slides).forEach((_, index) => {
             const li = document.createElement('li');
-            li.textContent = index;
-            li.setAttribute('data-point', index)
+            li.setAttribute('data-point', index);
+            li.classList.add('slide-dot');
+            if (this.activeSlide === index) {
+                li.classList.add('active-slide');
+            }
             ul.append(li)
         });
 

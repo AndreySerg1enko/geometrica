@@ -1,5 +1,7 @@
 .header {
   background-color: #fff;
+}
+.header__container {
   padding: 56px 0 0 80px;
 }
 .header__wrapper {
@@ -174,4 +176,73 @@
 
 .header__catalog-button:hover {
   background: var(--red-darken-2);
+}
+
+.header__slider {
+  min-height: 768px;
+  position: relative;
+}
+
+.header__slide {
+  min-height: 960px;
+  background: url("../../images/slides/slide-1.jpg") no-repeat;
+  background-size: cover;
+}
+
+.header__slide-title-group {
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  margin-top: -218px;
+}
+
+.header__slide-subtitle {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.header__slide-title {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 121px;
+  letter-spacing: -0.08em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.header__slide-discount {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 31px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.header__slide-title-group {
+  padding-left: 80px;
+}
+
+.header .slide-pagination {
+  display: flex;
+  position: absolute;
+  bottom: 157px;
+  left: 320px;
+}
+
+.header .slide-dot {
+  background: linear-gradient(0deg, #ffffff, #ffffff), #ffffff;
+  width: 40px;
+  height: 6px;
+  margin-right: 20px;
+}
+.header .slide-dot.active-slide {
+  background: #e03226;
 }

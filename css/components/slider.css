@@ -4,7 +4,6 @@
 }
 
 .slider__slide {
-  min-height: 500px;
 }
 
 .slider__slide:nth-child(1) {

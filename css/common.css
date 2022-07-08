@@ -6,3 +6,6 @@
 .flex-container {
   display: flex;
 }
+.align-items-end {
+  align-items: end;
+}
