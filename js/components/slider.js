@@ -49,6 +49,8 @@ class Slider {
 
         ul.addEventListener('click', (evt) => {
             this.activeSlide = evt.target.dataset.point;
+            Array.from(ul.children).forEach((item) => item.classList.remove('active-slide'));
+            evt.target.classList.add('active-slide')
             this.container.style.transform = `translateX(-${this.width * this.activeSlide}px)`
         })
     }
