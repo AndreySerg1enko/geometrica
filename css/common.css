@@ -6,6 +6,15 @@
 .flex-container {
   display: flex;
 }
-.align-items-end {
-  align-items: end;
+
+.align-end {
+  align-items: flex-end;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.align-baseline {
+  align-items: baseline;
 }

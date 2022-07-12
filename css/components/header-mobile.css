@@ -1,0 +1,44 @@
+.header__mobile {
+  padding: 20px;
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  background: #fff;
+}
+.header__mobile-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.header__mobile-burger {
+  background: transparent;
+  border: none;
+}
+.burger {
+  font-size: 25px;
+}
+.header__mobile-phone-number {
+}
+.header__mobile-phone-link {
+  margin-left: 10px;
+}
+.header__mobile-search-btn {
+  background: transparent;
+  border: none;
+}
+.glass-search {
+  font-size: 25px;
+}
+.header__mobile-search-form {
+  width: 100%;
+  display: none;
+  transition: al;
+}
+.header__mobile-search-form.active {
+  display: block;
+}
+.header__search-input {
+}
+.header__search-button {
+}
