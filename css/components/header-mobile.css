@@ -19,7 +19,12 @@
   gap: 10px;
 }
 .header__mobile-search {
+  display: none;
   flex: 1 1 100%;
+  transition: all 0.3s 0.4s;
+}
+.header__mobile-search.shown {
+  display: block;
 }
 .header__mobile-search-input {
   width: 100%;
