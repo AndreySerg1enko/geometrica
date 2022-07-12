@@ -4,7 +4,7 @@
 .header__container {
   padding: 56px 15px 0 80px;
   position: relative;
-  z-index: 2;
+  z-index: 1;
   background: #fff;
 }
 .header__wrapper {
@@ -108,11 +108,14 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-top: 22px;
+  margin-top: 20px;
 }
 .header__panel-logo {
 }
 .header__description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-family: "Roboto";
   font-weight: 400;
   font-size: 12px;
@@ -152,6 +155,7 @@
 }
 .header__search {
   margin-left: 90px;
+  transform: translateY(40px);
   position: relative;
 }
 .header__search-input {
@@ -200,9 +204,7 @@
 }
 
 .header__slider {
-  position: relative;
   margin-top: -80px;
-  z-index: 1;
 }
 
 .header__slide {
@@ -274,70 +276,54 @@
   margin-left: 23px;
 }
 
-.details-btn {
-  width: 26px;
-  height: 26px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-decoration: none;
-  border-radius: 50%;
-  background: var(--red-darken-2);
-  font-size: 12px;
-  border: none;
-  color: #fff;
-  transition: all 0.5s;
-}
-.details-btn:hover {
-  color: var(--red-darken-2);
-}
-
 @media (max-width: 1400px) {
   .header__description,
   .header__controls,
   .header__search {
     margin-left: 0;
   }
-
   .header__contacts {
     flex: 0 0 auto;
   }
-
   .header__panel {
     justify-content: space-around;
   }
-
   .header__search {
-    margin-top: 25px;
+    transform: translateY(0);
   }
 }
 
 @media (max-width: 1200px) {
-  .header__wrapper {
-    flex-wrap: wrap;
-  }
   .header__container {
     padding: 56px 15px 0 15px;
   }
-  .header__contacts {
+  .header__wrapper {
+    flex-wrap: wrap;
     justify-content: center;
-    flex: 1 1 auto;
-    margin: 15px auto 0;
+  }
+  .header__navigation {
+    padding-right: 0;
+  }
+  .header__contacts {
+    margin-top: 20px;
   }
   .header__contacts-info {
     display: flex;
     align-items: center;
   }
   .header__contacts-location {
-    margin: 0 0 0 20px;
+    margin: 0 20px;
   }
-  .header__contacts-instagram {
-    margin-left: 20px;
+  .header__search {
+    margin-top: 20px;
   }
 }
 
 @media (max-width: 768px) {
   .header__container {
     display: none;
+  }
+  .header__slider {
+    margin-top: 0;
   }
 }
