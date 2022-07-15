@@ -115,6 +115,71 @@
                     </button>
                 </form>
             </div>
+            <div class="header__mobile-bottom">
+                <div class="header__mobile-logo">
+                    <img src="./images/logo.svg" alt="logo" class="header__panel-logo">
+                    <p class="header__description header__description--mobile">
+                        керамическая плитка и керамогранит в Иркутске
+                    </p>
+                </div>
+                <div class="header__mobile-panel">
+                    <button class="header__catalog-button header__catalog-button--mobile">
+                        каталог
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                    <div class="header__controls header__controls--mobile">
+                        <i class="fa-regular fa-user header__controls-icon header__controls-icon--mobile"></i>
+                        <i class="fa-regular fa-heart header__controls-icon header__controls-icon--mobile"><sup class="header__controls-counter header__controls-counter--mobile">0</sup></i>
+                        <i class="fa-solid fa-shopping-cart header__controls-icon header__controls-icon--mobile"><sup class="header__controls-counter header__controls-counter--mobile">21</sup></i>
+                    </div>
+                </div>
+            </div>
+            <div class="header__mobile-menu">
+                <nav class="header__navigation">
+                    <ul class="header__navigation-list header__navigation-list--mobile">
+                        <li class="header__navigation-list-item header__navigation-list-item_dropdown header__navigation-list-item--mobile">
+                            <a class="header__navigation-list-link" href="#">Услуги</a>
+                            <ul class="header__navigation-sub-list header__navigation-sub-list--mobile">
+                                <li class="header__navigation-sub-list-item">
+                                    <a href="#" class="header__navigation-sub-list-link">
+                                        Услуга 1
+                                    </a>
+                                </li>
+                                <li class="header__navigation-sub-list-item">
+                                    <a href="#" class="header__navigation-sub-list-link">
+                                        Услуга 2
+                                    </a>
+                                </li>
+                                <li class="header__navigation-sub-list-item">
+                                    <a href="#" class="header__navigation-sub-list-link">
+                                        Услуга 3
+                                    </a>
+                                </li>
+                                <li class="header__navigation-sub-list-item">
+                                    <a href="#" class="header__navigation-sub-list-link">
+                                        Услуга 4
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="header__navigation-list-item header__navigation-list-item--mobile">
+                            <a class="header__navigation-list-link" href="#">оплата и доставка</a>
+                        </li>
+                        <li class="header__navigation-list-item header__navigation-list-item--mobile">
+                            <a class="header__navigation-list-link" href="#">акции</a>
+                        </li>
+                        <li class="header__navigation-list-item header__navigation-list-item--mobile">
+                            <a class="header__navigation-list-link" href="#">полезные советы</a>
+                        </li>
+                        <li class="header__navigation-list-item header__navigation-list-item--mobile">
+                            <a class="header__navigation-list-link" href="#">обратная связь</a>
+                        </li>
+                        <li class="header__navigation-list-item header__navigation-list-item--mobile">
+                            <a class="header__navigation-list-link" href="#">контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
         </div>
 
 
@@ -174,8 +239,47 @@
         </div>
     </header>
 
+    <main class="main">
+        <section class="products">
+            <div class="container">
+                <a href="#" class="products__granite">
+                    <p>67 коллекций, 1 478 товаров</p>
+                    <h2>Керамогранит</h2>
+                </a>
+                <a href="#" class="products__wallpaper">
+                    <h2>обои</h2>
+                    <p>1 478 товаров</p>
+                </a>
+                <a href="#" class="products__tile">
+                    <p>67 коллекций, 1 478 товаров</p>
+                    <h2>керамическая <span>плитка</span></h2>
+                </a>
+                <a href="#" class="products__specials">
+                    <h2>Изготовление Специзделий</h2>
+                </a>
+                <a href="#" class="products__formats">
+                    <p>67 коллекций, 1 478 товаров</p>
+                    <h2>Крупные<span>форматы</span></h2>
+                </a>
+                <a href="#" class="products__others">
+                    <p>
+                        смотрите также:
+                    </p>
+                    <ul>
+                        <li>сухие смеси</li>
+                        <li>лакокрасочные изделия</li>
+                        <li>Багет</li>
+                    </ul>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <div class="overlay"></div>
+
     <script src="./js/components/slider.js"></script>
     <script src="./js/components/searchMobile.js"></script>
+    <script src="./js/components/menuMobile.js"></script>
     <script src="./js/index.js"></script>
 </body>
 
