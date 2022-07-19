@@ -1,0 +1,135 @@
+.categories__category-description {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: #ebe5d2;
+}
+
+.categories__title {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 63px;
+  line-height: 76px;
+  letter-spacing: -0.05em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.categories__container {
+  max-width: 1280px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.categories__block {
+  display: block;
+  text-decoration: none;
+}
+
+.categories__granite {
+  position: absolute;
+  left: 0;
+  top: -80px;
+  background-image: url("../../images/categories/categories01.jpg");
+  width: 560px;
+  height: 400px;
+  z-index: 1;
+}
+
+.categories__category-description--granite {
+  padding: 55px 0 0 49px;
+  margin-bottom: 32px;
+}
+
+.categories__wallpaper {
+  position: absolute;
+  top: -160px;
+  left: 480px;
+  width: 715px;
+  height: 320px;
+  background-image: url("../../images/categories/categories02.jpg");
+  background-color: #ffffff;
+  background-position: 160px center;
+  background-repeat: no-repeat;
+}
+
+.categories__wallpaper-wrap {
+  position: absolute;
+  top: 100px;
+  left: 176px;
+  width: 200px;
+  height: 120px;
+  background: #fff;
+  padding: 30px 0 0 20px;
+}
+
+.categories__wallpaper-title {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 27px;
+  line-height: 120%;
+  letter-spacing: -0.05em;
+  text-transform: uppercase;
+  color: #3e3e3e;
+  margin-bottom: 10px;
+}
+
+.categories__tile {
+  position: absolute;
+  right: 0;
+  top: -80px;
+  background-image: url("../../images/categories/categories03.jpg");
+  width: 320px;
+  height: 320px;
+}
+
+.categories__category-description--tile {
+  padding: 104px 0 0 44px;
+  margin-bottom: 36px;
+}
+
+.categories__tile-title {
+  font-family: "Inter";
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: -0.05em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.categories__tile-title span {
+  font-family: "Inter";
+  font-size: 46px;
+  line-height: 56px;
+}
+
+.categories__specials {
+  position: absolute;
+  top: 400px;
+  left: 0;
+  background-image: url("../../images/categories/categories04.jpg");
+  width: 480px;
+  height: 160px;
+}
+
+.categories__formats {
+  position: absolute;
+  left: 560px;
+  top: 160px;
+  background-image: url("../../images/categories/categories05.jpg");
+  width: 400px;
+  height: 400px;
+}
+
+.categories__others {
+  position: absolute;
+  right: 0;
+  top: 320px;
+  background-image: url("../../images/categories/categories06.jpg");
+  width: 240px;
+  height: 240px;
+}
