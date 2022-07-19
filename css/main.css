@@ -1,9 +1,9 @@
 /* libs */
 @import url("./global.css");
-@import url(./reset.css);
-@import url(../libs/css/normalize.css);
-@import url(./fonts.css);
-@import url(../libs/css/font-awesome.css);
+@import url("./reset.css");
+@import url("../libs/css/normalize.css");
+@import url("./fonts.css");
+@import url("../libs/css/font-awesome.css");
 @import url("./common.css");
 
 /* components */
@@ -13,3 +13,4 @@
 @import url("./components/slider.css");
 @import url("./components/header-mobile.css");
 @import url("./components/details-btn.css");
+@import url("./components/categories.css");
