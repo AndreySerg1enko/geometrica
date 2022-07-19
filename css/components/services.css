@@ -1,0 +1,38 @@
+.services {
+  padding: 127px 0;
+}
+
+.services__container {
+  display: flex;
+  align-items: center;
+  gap: 65px;
+}
+
+.services__block {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+
+.services__block .icon {
+  width: 100px;
+  height: 100px;
+}
+
+.services__title {
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 130%;
+  color: #000000;
+  margin-bottom: 5px;
+}
+
+.services__title span {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.1em;
+  color: #a4a4a4;
+}

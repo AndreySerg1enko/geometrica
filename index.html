@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./css/main.css">
 </head>
 
@@ -241,7 +242,7 @@
 
     <main class="main">
         <section class="categories">
-            <div class="categories__container">
+            <div class="container-secondary">
                 <a href="#" class="categories__block categories__granite">
                     <p class="categories__category-description categories__category-description--granite">67 коллекций, 1 478 товаров</p>
                     <h2 class="categories__title">Керамогранит</h2>
@@ -275,11 +276,86 @@
                 </a>
             </div>
         </section>
+
+        <section class="services">
+            <div class="container-secondary services__container">
+                <div class="services__block">
+                    <svg class="icon">
+                        <use xlink:href="./images/services/services-sprites.svg#truck"></use>
+                    </svg>
+                    <div class="services__title">
+                        <h3>
+                            удобная доставка
+                            по Иркутску
+                        </h3>
+                        <span>в день покупки</span>
+                    </div>
+                </div>
+                <div class="services__block">
+                    <svg class="icon">
+                        <use xlink:href="./images/services/services-sprites.svg#cube"></use>
+                    </svg>
+                    <div class="services__title">
+                        <h3>резка плитки
+                            и керамогранита
+                        </h3>
+                        <span>под ваш проект</span>
+                    </div>
+                </div>
+                <div class="services__block">
+                    <svg class="icon">
+                        <use xlink:href="./images/services/services-sprites.svg#layers"></use>
+                    </svg>
+                    <div class="services__title">
+                        <h3>монтаж плитки
+                            на вашем объекте
+                        </h3>
+                        <span>под ключ</span>
+                    </div>
+                </div>
+                <div class="services__block">
+                    <svg class="icon">
+                        <use xlink:href="./images/services/services-sprites.svg#codepen"></use>
+                    </svg>
+                    <div class="services__title">
+                        <h3>3D дизайн-проект
+                            в подарок
+                        </h3>
+                        <span>при покупке плитки</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="discounts">
+            <!-- Slider main container -->
+            <div class="swiper discounts-swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">Slide 1</div>
+                    <div class="swiper-slide">Slide 2</div>
+                    <div class="swiper-slide">Slide 3</div>
+                    ...
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+                <!-- If we need scrollbar -->
+                <div class="swiper-scrollbar"></div>
+            </div>
+        </section>
     </main>
 
     <div class="overlay"></div>
 
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script src="./js/components/slider.js"></script>
+    <script src="./js/components/discounts.js"></script>
     <script src="./js/components/searchMobile.js"></script>
     <script src="./js/components/menuMobile.js"></script>
     <script src="./js/index.js"></script>

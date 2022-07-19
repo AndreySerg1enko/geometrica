@@ -1,3 +1,7 @@
+.categories {
+  height: 560px;
+}
+
 .categories__category-description {
   font-family: "Inter";
   font-weight: 700;
@@ -16,12 +20,6 @@
   letter-spacing: -0.05em;
   text-transform: uppercase;
   color: #ffffff;
-}
-
-.categories__container {
-  max-width: 1280px;
-  position: relative;
-  margin: 0 auto;
 }
 
 .categories__block {
