@@ -1,8 +1,65 @@
+.swiper-button-prev:after,
+.swiper-button-next::after {
+  display: none;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  position: absolute;
+  top: 50%;
+  color: #a3a3a3;
+  width: 30px;
+  height: 30px;
+}
+
+.swiper-button-prev {
+}
+
+.swiper-button-next {
+}
+
+.discounts {
+  position: relative;
+}
+
 .discounts-swiper {
   max-width: 1280px;
   height: 256px;
 }
 
-.box {
-    
+.discounts-swiper-wrapper {
+}
+
+.discounts__slide {
+  background-image: url("../../images/categories/categories01.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.discounts__slide-block {
+  background: #fff;
+  padding: 35px 69px 51px 55px;
+  font-family: "Inter";
+}
+
+.discounts__slide-text {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 120%;
+  text-transform: uppercase;
+  color: var(--red-darken-1);
+  margin-bottom: 17px;
+}
+
+.discounts__slide-title {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 120%;
+  letter-spacing: -0.05em;
+  text-transform: uppercase;
+  color: #3e3e3e;
 }

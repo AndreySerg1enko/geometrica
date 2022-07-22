@@ -3,11 +3,7 @@ new Swiper('.discounts-swiper', {
     direction: 'horizontal',
     loop: true,
     slidesPerView: 3,
-
-    // If we need pagination
-    pagination: {
-        el: '.swiper-pagination',
-    },
+    spaceBetween: 40,
 
     // Navigation arrows
     navigation: {
